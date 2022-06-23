@@ -1,9 +1,8 @@
 let pass1 = document.querySelector('#pass');
 let pass2 = document.querySelector('#pass2');
-pass1.textContent = 'bruh';
 
-let p1;
-let p2;
+let p1 = '';
+let p2 = '';
 
 pass1.addEventListener('change', () => {
     p1 = pass1.textContent;
